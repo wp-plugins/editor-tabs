@@ -1,0 +1,24 @@
+/*
+
+Dashboard Pages Styling 
+
+*/
+
+#normal-sortables .active { display: block !important; clear: both; }
+
+#editor-tabs { margin: 0 15px 0 0; }
+#editor-tabs li { display: block; float: right; margin: 3px 3px 0 0 !important;  padding: 0px; border: none;  }
+
+#editor-tabs li a { text-shadow: 1px 1px 0px #fff; text-decoration: none; color: #666; border: 1px solid #dfdfdf; border-bottom: 9px; background: #f1f1f1; font-size: 12px; display: block; -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px;
+	 -moz-border-radius-topright: 6px; -webkit-border-top-right-radius: 6px; margin-bottom: 0px !important; padding: 3px 5px; font-weight: bold; }
+#editor-tabs li a.active, #editor-tabs li a:hover { background: #dfdfdf; border: 1px solid #ccc; border-bottom: 0px; color: #000; }
+
+#editor-window { border: 1px solid #ededed; background: #fff; padding: 15px; clear: both; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
