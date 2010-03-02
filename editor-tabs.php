@@ -5,7 +5,7 @@ Plugin Name: Editor Tabs
 Plugin URI: http://workshop.37designs.com/
 Description: Rather than tons of sortable boxes and an endless interface, some accessible javascript tabs
 Author: Ross Johnson
-Version: 1.0
+Version: 1.2
 Author URI: http://www.stylizedweb.com/
 */
 
@@ -21,7 +21,7 @@ function editor_tabs_function() {
 } 
 
 
-function editor_admin_register_head() {
+function editor_admin_register_head_editor_37() {
     $siteurl = get_option('siteurl');
     $css_url = $siteurl . '/wp-content/plugins/' . basename(dirname(__FILE__)) . '/editor-tabs.css';
 	$js_url = $siteurl . '/wp-content/plugins/' . basename(dirname(__FILE__)) . '/editor-tabs.js';
@@ -32,6 +32,6 @@ function editor_admin_register_head() {
 
 }
 
-add_action('admin_head', 'editor_admin_register_head');
+add_action('admin_head', 'editor_admin_register_head_editor_37');
  
 ?>
